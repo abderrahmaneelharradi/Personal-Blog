@@ -10,11 +10,8 @@ const CommentSection = ({ postId }) => {
   const [newComment, setNewComment] = useState("")
   const [loading, setLoading] = useState(false)
 
-  useEffect(() => {
-    fetchComments()
-  }, [postId])
-
-  const fetchComments = async () => {
+  
+    const fetchComments = async () => {
     try {
       const response = await axios.get(`http://localhost:5000/api/posts/${postId}/comments`)
       setComments(response.data)
@@ -22,6 +19,13 @@ const CommentSection = ({ postId }) => {
       console.error("Error fetching comments:", error)
     }
   }
+
+
+  useEffect(() => {
+    fetchComments()
+  }, [postId])
+
+
 
   const handleSubmitComment = async (e) => {
     e.preventDefault()
