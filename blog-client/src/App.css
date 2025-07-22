@@ -37,7 +37,7 @@ body {
 .nav-logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #007bff;
+  color: rgb(54, 27, 151);
   text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .nav-button {
-  background: #007bff;
+  background: rgb(54, 27, 151);
   color: white;
   border: none;
   padding: 8px 16px;
@@ -74,7 +74,7 @@ body {
 }
 
 .nav-button:hover {
-  background: #0056b3;
+  background: rgb(54, 27, 151);
 }
 
 /* Main content */
@@ -88,7 +88,7 @@ body {
 .hero-section {
   text-align: center;
   padding: 60px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: rgb(54, 27, 151);
   color: white;
   margin: -20px -20px 40px -20px;
   border-radius: 0 0 20px 20px;
@@ -124,7 +124,7 @@ body {
 }
 
 .search-button {
-  background: #007bff;
+  background: rgb(54, 27, 151);
   color: white;
   border: none;
   padding: 12px 24px;
@@ -178,7 +178,7 @@ body {
 }
 
 .post-title a:hover {
-  color: #007bff;
+  color: rgb(54, 27, 151);
 }
 
 .post-excerpt {
@@ -197,7 +197,7 @@ body {
 }
 
 .read-more {
-  color: #007bff;
+  color: rgb(54, 27, 151);
   text-decoration: none;
   font-weight: 500;
 }
@@ -258,7 +258,7 @@ body {
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: rgb(54, 27, 151);
 }
 
 .form-textarea {
@@ -280,7 +280,7 @@ body {
 }
 
 .btn-primary {
-  background: #007bff;
+  background: rgb(54, 27, 151);
   color: white;
 }
 
@@ -451,7 +451,7 @@ body {
   padding: 20px;
   background: #f8f9fa;
   border-radius: 8px;
-  border-left: 4px solid #007bff;
+  border-left: 4px solid rgb(54, 27, 151);
 }
 
 .comment-header {
@@ -463,7 +463,7 @@ body {
 
 .comment-author {
   font-weight: 600;
-  color: #007bff;
+  color: rgb(54, 27, 151);
 }
 
 .comment-date {
@@ -520,7 +520,7 @@ body {
 }
 
 .auth-link a {
-  color: #007bff;
+  color: rgb(54, 27, 151);
   text-decoration: none;
 }
 

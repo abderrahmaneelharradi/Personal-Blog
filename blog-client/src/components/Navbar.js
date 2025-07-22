@@ -15,12 +15,12 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          Mon Blog
+          My Blog
         </Link>
 
         <div className="nav-links">
           <Link to="/" className="nav-link">
-            Accueil
+            Home
           </Link>
 
           {user ? (
@@ -28,18 +28,18 @@ const Navbar = () => {
               <Link to="/dashboard" className="nav-link">
                 Dashboard
               </Link>
-              <span className="nav-user">Bonjour, {user.username}</span>
+              <span className="nav-user">Hello, {user.username}</span>
               <button onClick={handleLogout} className="nav-button">
-                Déconnexion
+                Logout
               </button>
             </>
           ) : (
             <>
               <Link to="/login" className="nav-link">
-                Connexion
+                Login
               </Link>
               <Link to="/register" className="nav-button">
-                Inscription
+                Register
               </Link>
             </>
           )}

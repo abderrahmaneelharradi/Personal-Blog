@@ -33,8 +33,8 @@ const Home = () => {
   return (
     <div className="home-page">
       <div className="hero-section">
-        <h1>Bienvenue sur Mon Blog</h1>
-        <p>Découvrez les derniers articles et partagez vos réflexions</p>
+        <h1>Welcome to My Blog</h1>
+        <p>Discover the latest articles and share your thoughts</p>
       </div>
 
       <div className="search-section">
@@ -43,17 +43,17 @@ const Home = () => {
             type="text"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder="Rechercher un article..."
+            placeholder="Search for an article..."
             className="search-input"
           />
           <button type="submit" className="search-button">
-            Rechercher
+            Search
           </button>
         </form>
       </div>
 
       <div className="posts-section">
-        {loading ? <div className="loading">Chargement des articles...</div> : <PostList posts={posts} />}
+        {loading ? <div className="loading">Loading articles...</div> : <PostList posts={posts} />}
       </div>
     </div>
   )
